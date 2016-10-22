@@ -9,7 +9,7 @@
 
 template <typename T>
 void durationSinceEpoch(T dur) {
-	std::cout << "count since epoch" << dur.count() << std::endl;
+	std::cout << "count since epoch " << dur.count() << std::endl;
 
 
 }
