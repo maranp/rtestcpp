@@ -1,21 +1,3 @@
-#CXXFLAGS =	-O2 -g -Wall -fmessage-length=0 -std=c++11
-#
-#OBJS =		Test.o
-#
-#LIBS =
-#
-#TARGET =	Test
-#
-#LDFLAGS =   -lpthread
-#
-#$(TARGET):	$(OBJS)
-#	$(CXX) -o $(TARGET) $(OBJS) $(LIBS) $(LDFLAGS)
-#
-#all:	$(TARGET)
-#
-#clean:
-#	rm -f $(OBJS) $(TARGET)
-
 CXXINCFLAGS := -std=c++11 -I /home/maran/eclipse/boost_1_62_0 -Werror=narrowing #-O3
 CXXFLAGS := -Wall -g $(CXXINCFLAGS)
 LDFLAGS := -lpthread
